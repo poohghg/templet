@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="145.405" height="19.051" viewBox="0 0 145.405 19.051">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1" data-name="사각형 1" width="145.405" height="19.051" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_2" data-name="그룹 2" transform="translate(0 0)" opacity="0.285">
+    <g id="그룹_1" data-name="그룹 1" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="패스_1" data-name="패스 1" d="M0,19.049V0H12.817a2.623,2.623,0,0,1,1.914.807,2.62,2.62,0,0,1,.807,1.914V8.164a4.737,4.737,0,0,1,2.7.808,2.618,2.618,0,0,1,.807,1.913v5.442a2.684,2.684,0,0,1-2.721,2.722ZM12.817,2.722H2.721V8.164h10.1Zm3.511,8.164H2.721v5.443H16.328Z" transform="translate(0 0)" fill="#1a1311"/>
+      <path id="패스_2" data-name="패스 2" d="M21.451,19.049V0H39.106V2.721H24.172V8.164H39.14v2.722H24.172v5.442H39.106v2.722Z" transform="translate(-1.074 0)" fill="#1a1311"/>
+      <path id="패스_3" data-name="패스 3" d="M41.436,19.05,50.961,0h3.511L64,19.05H61.274l-3.4-6.8H47.559l-3.4,6.8ZM56.512,9.525l-3.8-6.8-3.8,6.8Z" transform="translate(-2.075 0)" fill="#1a1311"/>
+      <path id="패스_4" data-name="패스 4" d="M69.4,19.049a2.621,2.621,0,0,1-2.721-2.722V0H69.4V16.327H83.537V0h2.722V16.327a2.686,2.686,0,0,1-2.722,2.722Z" transform="translate(-3.339 0)" fill="#1a1311"/>
+      <path id="패스_5" data-name="패스 5" d="M94.538,19.336V5.729h14.224a2.758,2.758,0,0,1,2.721,2.722V19.336h-2.721V8.451h-11.5V19.336Z" transform="translate(-4.734 -0.287)" fill="#1a1311"/>
+      <path id="패스_6" data-name="패스 6" d="M116.5,19.336a2.619,2.619,0,0,1-2.721-2.722V8.451A2.687,2.687,0,0,1,116.5,5.729h9.136a2.759,2.759,0,0,1,2.721,2.722v5.442H116.5v2.722h11.857v2.722ZM125.64,8.451H116.5v2.722h9.136Z" transform="translate(-5.698 -0.287)" fill="#1a1311"/>
+      <path id="패스_7" data-name="패스 7" d="M134.118,5.751l6.754,6.872-6.746,6.717h-3.64l6.806-6.717-6.783-6.872Z" transform="translate(-6.534 -0.288)" fill="#1a1311"/>
+      <path id="패스_8" data-name="패스 8" d="M148.89,19.339l-6.754-6.717,6.746-6.872h3.64l-6.806,6.872,6.783,6.717Z" transform="translate(-7.118 -0.288)" fill="#1a1311"/>
+    </g>
+  </g>
+</svg>

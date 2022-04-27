@@ -1,0 +1,360 @@
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../../fonts/NotoSansKR-Thin.woff2") format("woff2"),
+    url("../../fonts/NotoSansKR-Thin.woff") format("woff"),
+    url("../../fonts/NotoSansKR-Thin.otf") format("opentype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../fonts/NotoSansKR-Light.woff2") format("woff2"),
+    url("../../fonts/NotoSansKR-Light.woff") format("woff"),
+    url("../../fonts/NotoSansKR-Light.otf") format("opentype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/NotoSansKR-Regular.woff2") format("woff2"),
+    url("../../fonts/NotoSansKR-Regular.woff") format("woff"),
+    url("../../fonts/NotoSansKR-Regular.otf") format("opentype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../fonts/NotoSansKR-Medium.woff2") format("woff2"),
+    url("../../fonts/NotoSansKR-Medium.woff") format("woff"),
+    url("../../fonts/NotoSansKR-Medium.otf") format("opentype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/NotoSansKR-Bold.woff2") format("woff2"),
+    url("../../fonts/NotoSansKR-Bold.woff") format("woff"),
+    url("../../fonts/NotoSansKR-Bold.otf") format("opentype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../fonts/NotoSansKR-Black.woff2") format("woff2"),
+    url("../../fonts/NotoSansKR-Black.woff") format("woff"),
+    url("../../fonts/NotoSansKR-Black.otf") format("opentype");
+  font-display: block;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR";
+}
+
+/* body {
+} */
+
+button {
+  border-style: none;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  color: none;
+  background-color: none;
+}
+
+select,
+select:active,
+select:hover {
+  border: none;
+  text-decoration: none;
+  outline-style: none;
+}
+
+input,
+input:active,
+input:hover {
+  border: none;
+  text-decoration: none;
+  outline-style: none;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customSelect {
+  margin-right: 0.5rem;
+  width: 8%;
+}
+
+.customInputDiv {
+  width: 92%;
+}
+.commonWrap {
+  min-height: 100vh;
+  position: relative;
+  /* 양옆에 살짝 여유를줌 */
+  min-width: calc(1240px + 2rem);
+  background-color: #f2f2f2;
+}
+
+.commonWrap > input {
+  width: 95%;
+}
+
+.commonWrap input::placeholder {
+  color: #e2e2e2;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+}
+
+.headerInner {
+  width: 1240px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.InfoBox button {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 450;
+  margin-left: 0.5rem;
+}
+
+.headerMenu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.headerMenu button {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 450;
+  width: fit-content;
+  padding: 0.5rem 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  border-top: 0.5px solid #cbcbcb;
+}
+
+.footerInner {
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerLeftBox {
+  display: flex;
+  align-items: center;
+}
+
+.footerContent {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #a8a8a8;
+  margin-left: 1rem;
+}
+
+.footerIconBox {
+  display: flex;
+  align-items: center;
+}
+
+.footerIconBox button {
+  margin-left: 0.7rem;
+}
+
+.footerIconBox button img {
+  width: 36px;
+  height: 36px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: calc(70px + 20px);
+}
+
+.contentInner {
+  width: 1240px;
+}
+
+.labelSapn {
+  font-size: 1.6rem;
+  color: #000000;
+  font-weight: 450;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1.2rem 0 1rem 0;
+}
+
+.tableBox {
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 1rem;
+  border: 1px solid #dbdbdb;
+}
+
+.tableInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0;
+}
+
+.tableOrderBtn {
+  font-size: 0.8rem;
+  font-weight: 450;
+  color: #000000;
+  margin-left: 0.5rem;
+}
+
+.tableTotalSpan {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #212121;
+}
+
+.tableCount {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #18a9c1;
+}
+
+.searchDiv {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.commonTable {
+  width: 100%;
+  border-spacing: 0;
+  margin: 1rem 0;
+  border-collapse: collapse;
+}
+
+.commonTable thead tr {
+  background-color: #3e3e3e;
+  color: #fff;
+  border-top: 2px solid #f0f0f0;
+  border-bottom: 2px solid #f0f0f0;
+  height: 32px;
+}
+
+.commonTable thead tr td {
+  text-align: center;
+  width: fit-content;
+  font-size: 0.8rem;
+  font-weight: 350;
+}
+
+.commonTable tbody tr {
+  border-bottom: 2px solid #f0f0f0;
+  height: 38px;
+}
+
+.commonTable tbody tr td {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 350;
+}
+
+.commonTable tbody :hover {
+  background-color: #8ddde9;
+  cursor: pointer;
+}
+
+.whiteTr {
+  background-color: #fff;
+}
+
+.grayTr {
+  background-color: #f0f0f0;
+}
+
+.nowrapTd {
+  width: 480px;
+  max-width: 480px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.tableBtn {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: #5d5d5d;
+  font-size: 0.75rem;
+  padding: 0.4rem;
+  width: fit-content;
+  border: 1px solid#959595;
+  margin-right: 0.5rem;
+}

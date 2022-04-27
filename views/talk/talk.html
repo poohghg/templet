@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover"
+    />
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="../../resources/css/common/common.css"
+      type="text/css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../../resources/css/talk/talk.css"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="commonWrap">
+      <header class="header">
+        <div class="headerInner">
+          <div class="headerInfo">
+            <button>
+              <img
+                width="349"
+                height="46"
+                class="logoImg"
+                src="../../resources/images/logo/logo.svg"
+                alt="logo"
+              />
+            </button>
+            <div class="InfoBox">
+              <button>Language</button>
+              <button>Logout</button>
+            </div>
+          </div>
+          <div class="headerMenu">
+            <button class="menuBtn" id="mainBtn">
+              <a href="/views/dashboard/main.html"> 대리점 관리 </a>
+            </button>
+            <button class="menuBtn">
+              <a href="/views/member/login.html"> 제품관리 </a>
+            </button>
+            <button class="menuBtn">
+              <a href="/views/member/login.html"> AS 관리 </a>
+            </button>
+            <button class="menuBtn">
+              <a href="/views/member/login.html"> 앱 관리 </a>
+            </button>
+            <button class="menuBtn">
+              <a href="/views/member/login.html"> 회원 관리 </a>
+            </button>
+            <button class="menuBtn">
+              <a href="/views/member/login.html"> 알림 설정 </a>
+            </button>
+            <button class="menuBtn">
+              <a href="/views/member/login.html"> 이벤트 관리 </a>
+            </button>
+            <button class="menuBtn">
+              <a href="/views/member/login.html">레시피 관리</a>
+            </button>
+            <button class="menuBtn">
+              <a href="/views/talk/talk.html">뷰넥스톡 관리</a>
+            </button>
+            <button class="menuBtn">
+              <a href="/views/member/login.html">고객센터</a>
+            </button>
+          </div>
+        </div>
+      </header>
+      <section class="content">
+        <div class="contentInner">
+          <div class="spaceBetween">
+            <span class="labelSapn"> 뷰넥스톡 관리 </span>
+            <div>
+              <button class="talkTabButton active">뷰넥스톡 리스트</button>
+              <button class="talkTabButton">베스트 뷰넥스톡</button>
+              <button class="talkTabButton">블라인드 톡</button>
+              <button class="talkTabButton">신고접수</button>
+            </div>
+          </div>
+          <div class="searchBox">
+            <div class="searchDiv">
+              <span class="searchBoxLabel">뷰넥스톡 리스트</span>
+            </div>
+            <div class="searchDiv">
+              <span class="searchLabel"> 조건검색</span>
+              <div class="searchBoxWrap">
+                <select class="customSelect">
+                  <option value="1">아이디</option>
+                  <option value="2">내용</option>
+                  <option value="3">번호</option>
+                </select>
+                <div class="customInputDiv">
+                  <input type="text" placeholder="검색어를 입력해주세요" />
+                  <button>
+                    <img src="" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="searchDiv">
+              <span class="searchLabel"> 작성일</span>
+            </div>
+            <div class="searchDiv">
+              <span class="searchLabel"> 제목</span>
+              <div class="searchBoxWrap">
+                <div class="customInputDiv">
+                  <input type="text" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tableBox">
+            <div class="tableInfo">
+              <div>
+                <span class="searchBoxLabel">검색결과</span>
+                <span class="tableTotalSpan">총</span>
+                <span class="tableCount">8</span>
+                <span class="tableTotalSpan">건</span>
+              </div>
+              <div>
+                <button class="tableOrderBtn">별점 높은순</button>
+                <button class="tableOrderBtn">별점 낮은순</button>
+                <button class="tableOrderBtn">댓글이 많은순</button>
+                <button class="tableOrderBtn">좋아요 많은순</button>
+                <button class="tableOrderBtn">조회수가 높은순</button>
+              </div>
+            </div>
+            <table class="commonTable">
+              <thead>
+                <tr>
+                  <td>1</td>
+                  <td>아이디</td>
+                  <td>닉네임</td>
+                  <td class="nowrapTd">제목</td>
+                  <td>별점</td>
+                  <td>작성일</td>
+                  <td>댓글</td>
+                  <td>view</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  class="whiteTr"
+                  onclick="linkToPath('/views/talk/talkDetail.html')"
+                >
+                  <td>1</td>
+                  <td>아이디</td>
+                  <td>닉네임</td>
+                  <td class="nowrapTd">
+                    뷰넥스 12월 뷰넥스12월뷰넥스 12월 뷰넥스12월뷰넥스 12월
+                    뷰넥스12월
+                  </td>
+                  <td>별점</td>
+                  <td>작성일</td>
+                  <td>댓글</td>
+                  <td>view</td>
+                </tr>
+                <tr
+                  class="grayTr"
+                  onclick="linkToPath('/views/talk/talkDetail.html')"
+                >
+                  <td>1</td>
+                  <td>아이디</td>
+                  <td>닉네임</td>
+                  <td class="nowrapTd">
+                    뷰넥스 12월 뷰넥스12월뷰넥스 12월 뷰넥스12월뷰넥스 12월
+                    뷰넥스12월
+                  </td>
+                  <td>별점</td>
+                  <td>작성일</td>
+                  <td>댓글</td>
+                  <td>view</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="tableBottom">
+              <button class="tableBtn">
+                <img
+                  width="11"
+                  height="11"
+                  src="../../resources/images/bg/common/delete.svg"
+                  alt=""
+                  style="margin-right: 0.2rem"
+                />
+                <span>삭제</span>
+              </button>
+              <button class="tableBtn">선택글 블라인드</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footerInner">
+          <div class="footerLeftBox">
+            <img
+              height="20"
+              src="../../resources/images/bg/common/logo.svg"
+              alt=""
+            />
+            <span class="footerContent"
+              >Copyright © BeauNex. All Rights Reserved.</span
+            >
+          </div>
+          <div class="footerIconBox">
+            <button>
+              <img src="../../resources/images/bg/common/insta.svg" alt="" />
+            </button>
+            <button>
+              <img src="../../resources/images/bg/common/facebook.svg" alt="" />
+            </button>
+            <button>
+              <img src="../../resources/images/bg/common/blog.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="../../resources/js/common/common.js"></script>
+    <script src="../../resources/js/talk/talk.js"></script>
+  </body>
+</html>

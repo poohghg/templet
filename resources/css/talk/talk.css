@@ -1,0 +1,302 @@
+.talkInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2.5rem 0 1rem 0;
+}
+
+.talkTabButton {
+  color: #959595;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
+
+.talkTabButton:hover,
+.talkTabButton.active {
+  color: #373844;
+}
+
+.searchBox {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  background-color: #ebebeb;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+}
+
+.searchBoxLabel {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #373844;
+}
+
+.searchLabel {
+  font-size: 0.8rem;
+  color: #5d5d5d;
+  font-weight: 550;
+  padding-right: 1rem;
+  width: 6%;
+}
+
+.searchBoxWrap {
+  width: 80%;
+  height: 100%;
+  padding: 0.15rem;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #959595;
+  border-radius: 4px;
+}
+
+.talkDetailWrap {
+  min-height: 1050px;
+  position: relative;
+  margin-top: 1rem;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+}
+
+.talkId {
+  color: #000000;
+  font-size: 0.9rem;
+  font-weight: 450;
+  padding: 0.3rem 0;
+}
+
+.talkTitle {
+  color: #000000;
+  font-size: 1.05rem;
+  font-weight: 450;
+  padding: 0.3rem 0;
+}
+
+.talkDetailInfoBox {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.talkDetailInfoBox > div {
+  margin-right: 0.5rem;
+}
+
+.talkViewBox {
+  padding: 0.3rem;
+}
+
+.vlewBlodSpan {
+  font-size: 1rem;
+  font-weight: 550;
+  color: #000000;
+}
+
+.TagWrap {
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.TagWrap > span {
+  margin-right: 0.5rem;
+}
+
+.tag {
+  padding: 0.3rem 1.5em;
+  border-radius: 30px;
+  border: 1px solid #000000;
+  font-weight: 450;
+  font-size: 0.8rem;
+}
+
+.talkContent {
+  padding: 1.5rem 0;
+  font-size: 1.1rem;
+  color: #5d5d5d;
+  font-weight: 400;
+  letter-spacing: -0.7px;
+  /* word-break: keep-all; */
+  /* word-wrap: ; */
+}
+
+.talkImgWrap {
+}
+
+.talkImg {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-right: 1rem;
+}
+
+.ampleBtnWrap {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 70px;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ampleInfoBtn {
+  font-size: 1.15rem;
+  font-weight: 450;
+  border: 1px solid #707070;
+  padding: 0.2rem 0.4rem;
+  color: #5d5d5d;
+}
+
+.ampleBox {
+  display: none;
+  width: 500px;
+  position: absolute;
+  bottom: 70px;
+  right: 5px;
+  padding: 0 1.5rem;
+  border: 1px solid #707070;
+  background-color: #fff;
+}
+
+.labelInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.labelSpan {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+.ampleGraphWrap {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 1rem 0 0 0;
+}
+
+.ampleGraphBox {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ampleGraph {
+  position: relative;
+  width: 100%;
+  height: 210px;
+  background-color: #e6eaef;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.innerValue {
+  /* height -> amplevalue 값주기 */
+  position: relative;
+  background-color: #8ddde9;
+  border-radius: 6px;
+  height: 50%;
+  /* height: 100%;
+  transform: scaleY(0.5);
+  transform-origin: bottom center; */
+}
+
+.innerValueLabel {
+  position: absolute;
+  font-weight: 450;
+  font-size: 0.9rem;
+  color: #fff;
+  padding-top: 0.2rem;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ampleLabelSpan {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #1b1d2a;
+  margin-top: 0.5rem;
+}
+.mountingAmpleeWrap {
+  padding-bottom: 60px;
+}
+
+.mountingAmpleeDiv {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #373844;
+  margin: 0.5rem 0;
+}
+
+.mountingAmpleContent {
+  margin-left: 0.5rem;
+}
+
+.ampleBoxCloseBtn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #373844;
+  color: #fff;
+}
+
+@keyframes openBox {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.openBoxAni {
+  transform-origin: bottom right;
+  display: block;
+  animation: openBox 0.5s ease-in-out;
+}
+
+.talkCommentWrap {
+}
+
+.commentCard {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.commentSelectBoxWrap {
+  width: 7%;
+}
+.commentCheckBox {
+  width: 32px;
+  height: 32px;
+}
+
+.commentId {
+  height: 32px;
+}
+
+.commentContent {
+  margin-top: 1rem;
+}
